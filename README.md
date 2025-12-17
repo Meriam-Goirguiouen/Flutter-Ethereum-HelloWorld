@@ -1,4 +1,4 @@
-# Flutter-Ethereum-HelloWorld# Flutter & Ethereum DApp - Hello World
+# Flutter & Ethereum DApp - Hello World
 
 Ce projet est une Application Décentralisée (DApp) simple réalisée dans le cadre d'un TP.
 Elle permet de stocker et lire un nom sur une blockchain locale.
