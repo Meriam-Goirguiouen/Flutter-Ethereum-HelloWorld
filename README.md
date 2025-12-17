@@ -1,16 +1,20 @@
-# hello_world
+# Flutter-Ethereum-HelloWorld# Flutter & Ethereum DApp - Hello World
 
-A new Flutter project.
+Ce projet est une Application Décentralisée (DApp) simple réalisée dans le cadre d'un TP.
+Elle permet de stocker et lire un nom sur une blockchain locale.
 
-## Getting Started
+## Technologies utilisées
+- **Flutter** (Front-end Web & Mobile)
+- **Solidity** (Smart Contract)
+- **Truffle** (Framework de développement Ethereum)
+- **Ganache** (Blockchain locale personnelle)
+- **Web3dart** (Librarie Dart pour interagir avec la blockchain)
 
-This project is a starting point for a Flutter application.
+## Fonctionnalités
+- Déploiement d'un Smart Contract `HelloWorld`.
+- Lecture de l'état du contrat via RPC.
+- Envoi de transactions signées pour modifier l'état.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sécurité des données (Avertissement):
+- On note bien que la clé privée utilisée dans ce projet provient de **Ganache** (blockchain locale de test).
+Bien qu'elle soit visible ici à des fins de démonstration, il est rappelé qu'une véritable clé privée (Mainnet) ne doit **jamais** être partagée ou commitée sur un dépôt public.
